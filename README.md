@@ -33,7 +33,7 @@ This project provides a complete **user authentication** system built with **Nod
 git clone <repository-url>
 cd <project-directory>
 ```
-# main Banch
+# master Banch
 
 ### 2. Install Dependencies
 
