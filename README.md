@@ -5,7 +5,7 @@ This project provides a complete **user authentication** system built with **Nod
 
 ### Features
 - User registration with **hashed passwords** (bcrypt)
-- Login with **JWT-based authentication**
+- Login with **Session Management**
 - Session management using **Redis**
 - Secure password reset using time-limited tokens
 - API documented with **Swagger UI**
@@ -18,7 +18,7 @@ This project provides a complete **user authentication** system built with **Nod
 - **Node.js** (Express)
 - **MongoDB** (User data storage)
 - **Redis** (Session management)
-- **JWT** (JSON Web Token)
+- **Typescript** (Typescript)
 - **bcryptjs** (Password hashing)
 - **Swagger UI** (API documentation)
 - **Jest** (Unit and integration tests)
@@ -33,7 +33,7 @@ This project provides a complete **user authentication** system built with **Nod
 git clone <repository-url>
 cd <project-directory>
 ```
-# master Banch
+# main Banch
 
 ### 2. Install Dependencies
 
