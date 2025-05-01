@@ -59,7 +59,7 @@ JWT_SECRET=yoursecretkey
 Run the application:
 
 ```bash
-npm start
+npm run dev
 ```
 
 The app will be available at `http://localhost:4000`.
