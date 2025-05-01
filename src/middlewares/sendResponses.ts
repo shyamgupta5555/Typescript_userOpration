@@ -10,7 +10,7 @@ export async function sendResponse(
   if (status === true) {
     res.setHeader('Content-Type', 'application/json');
     return res.status(statusCode).json({
-      status: status,
+      success: status,
       statusCode: statusCode,
       message: message,
       data: data,
@@ -18,7 +18,7 @@ export async function sendResponse(
   } else {
     res.setHeader('Content-Type', 'application/json');
     return res.status(statusCode).json({
-      status: status,
+      success: status,
       statusCode: statusCode,
       message: message,
       data: data || []
