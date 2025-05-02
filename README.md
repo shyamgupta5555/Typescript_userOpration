@@ -24,7 +24,8 @@ This project provides a complete **user authentication** system built with **Nod
 - **Jest** (Unit and integration tests)
 
 ---
-
+## Demo Video (API and Test Case Execution):
+https://drive.google.com/file/d/1wmJaLimLGxntCQPfzQMNZijNqDHocNEf/view?usp=sharing
 ## Getting Started
 
 ### 1. Clone the Repo
