@@ -51,7 +51,8 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 REDIS_PASSWORD=yourpassword
 SESSION_SECRET=yoursecretkey
-JWT_SECRET=yoursecretkey
+EMAIL=xyz@example.com  // This example Credentials add valid Credentials on dotenv
+PASSWORD=1452963569    // This example Credentials add valid Credentials
 ```
 
 ### 4. Start the Server

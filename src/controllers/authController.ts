@@ -161,6 +161,8 @@ export const resetPasswordRequest = async (
     await user.save();
 
    try{
+
+    // add valid Credentials for email service i added for testing purpose 
      await sendResetEmail(email, token)
     }catch(error){
       logger.error("Email sending failed: " + error.message);

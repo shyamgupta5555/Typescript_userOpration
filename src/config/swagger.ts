@@ -8,3 +8,4 @@ const swaggerDocument = YAML.load(path.join(__dirname, '../swagger.yaml'));
 export const setupSwagger = (app: Express) => {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 };
+;
